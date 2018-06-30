@@ -19,34 +19,6 @@ id=33185988&device_id=42912&message=jajamensann&status=received&send_at=0&queued
 
 ## Test cases
 (X depends on settings)
-- user without cookie visits school page. gets prompted
-- user with cookie, but no hash visits school page. gets prompted
-- user enters wrong password. gets notified and prompted
-- user enters right password. enters school page.
-- user changes any parameter of group. appropriate database value changes
-- user changes any field on team page. appropriate database value changes.
-- user changes data subscribed to by EntitySubscriber: change is created in table
-- if unprocessed change exists: next calendar_rebuild is executed
-- user creates a new row on team page. changes one of the values. new user appears in database.
-- user with correct cookie value visits school page. sees page.
-- user A adds a new user B into skola/{school_id}/team. User B gets notified within X hours.
-- user has insufficient contact data (mail/mobile). Gets notified within X hours.
-- user has "gained" or "lost" responsibility over a group. Gets notified within x hours.
-- group has appointed visit within X days. associated user (=group leader) gets notified via mail
-- group has appointed visit within X days *and* associated user has not confirmed visit *and* X hours have elapsed since last message (mail or sms). User gets notified via sms.
 
-### Checks to perform
-- chron task advances timer according to expections
-- timer is reset once every week
-- admin summary matches expectations and is correct
-  - food changed within X days
-  - info changed within X days
-  - number of students changed within X days
-  - inactive group visits
-  - bus order is outdated
-  - food order is outdated
-  - unconfirmed visit within X days
-  - school has wrong amount of groups active
-  - non-standard user (admin etc) is group leader
-  - number of students is out of bounds  
-- 
+
+  

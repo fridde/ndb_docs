@@ -5,7 +5,7 @@
 * [x] build batchSetGroupCount Form
 * [x] create navigation menus
 * [x] fix datepicker on table visits
-* [ ] protect update from request forgery by introducing session variables
+* [x] protect update from request forgery by introducing session variables
 * document 
     * [ ] Naturskolan.php
     * [ ] PasswordHandler.php
@@ -13,6 +13,11 @@
 * create Kontrollcenter with Buttons
     * [ ] createMissingGroups: Response needed
     * [x] enable/disable cron tasks
+* tests
+    * [ ] SMS content
+	* tables
+	    * [ ] events end up in kalender.ics
+		* [ ]
 * test cron-tasks
     * [x] fire at right time
     * [ ] have right outputs (mails/sms/changed values)
@@ -29,6 +34,7 @@
 * [x] create page to set bus&food-confirmation status
 * [x] create colleague assignment page
 * [x] add custom calendar events form
+* [ ] add responses for admin actions (pop up etc)
 * [ ] layout pages
 * [ ] insert loggers
 * [x] button to insert group names in empty groups
@@ -43,14 +49,14 @@
     * [x] changed_groups
     * [x] new_user_welcome
 * [ ] use Slack to notify admin about errors and interesting events
-* [ ] write tests with codeception
+
 * admin-mail:
     * [x] check for redudandant mail adresses
     * [x] check for visits-in-wrong-order
 	
 * IDEAS
     * [ ] implement calendar-view for visits on group page using jquery ui datepicker option "beforeShowDay"
-	* [ ] add notes-link to calendar
+	* [ ] add a "notes-link" to the calendar
 	* [ ] build a page to combine bustrips with schools, using a multi-select
 	
 # Issues

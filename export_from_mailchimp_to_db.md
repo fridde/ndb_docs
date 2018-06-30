@@ -10,12 +10,12 @@
 	1. Convert "2/3" in Årskurs to "2"
 1. create column "group_id", "user_id" and "school_id"
 1. populate school_id using the sheet "schools" and the formula VLOOKUP(C2;schools!A:B;2;FALSE) or something like that
-1. give user_id and group_id some incrementing numbers. For user_id, start at 10 (so Naturskolans staff starts at 1).
-1. try to find duplicates among users, give equal users same id. Delete user data for the superfluous users, but not the user_id (since it's linked to the group)
+1. give user_id and group_id some incrementing numbers. For user_id, start at 10 (so Naturskolan's staff starts at 1).
+1. try to find duplicates among users, give identical users same id. Delete user data for the superfluous users, but not the user_id (since it's linked to the group)
 1. copy the sheet's content into "user" and "groups" (paste values and formatting, but not formulas)
 1. Within each of these, remove the non-necessary columns.
     1. in "user"
-	    1. add columns "Role", "Status" and "CreatedAt" and use values ```0,1``` and ```2018-01-01T12:00:00+01:00``` in each row 
+	    1. add columns "Role", "Status" and "CreatedAt" and use values ```0, 1``` and ```2018-01-01T12:00:00+01:00``` in each row 
 	    1. remove users with empty rows
 	1. In "groups"
 	    1. Add columns "Status" and "CreatedAt" and use values ```1``` and ```2018-01-01T12:00:00+01:00``` in each row.
