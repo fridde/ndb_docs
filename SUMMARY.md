@@ -1,5 +1,8 @@
 
 * [Regular testing cases](regular-testing-cases.md)
 * [Roadmap](roadmap.md)
-* [Export from Mailchimp to database](export_from_mailchimp_to_db.md)
+
+* How To
+    * [Export from Mailchimp to database](export_from_mailchimp_to_db.md)
+    * [Add visit dates](add_visit_dates.md)
 
