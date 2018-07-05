@@ -1,7 +1,7 @@
 # Summary
 
 ## Reference
-    * [Regular testing cases](regular-testing-cases.md)
+    * [Debugging assistance](debugging_assistance.md)
     * [Roadmap](roadmap.md)
 
 ## How To
