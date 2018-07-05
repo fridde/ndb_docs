@@ -6,45 +6,10 @@
 * [x] create navigation menus
 * [x] fix datepicker on table visits
 * [x] protect update from request forgery by introducing session variables
-* document classes and concepts
-    * [ ] Naturskolan
-    * [ ] Authorization
-    * [ ] Update
+* [ ] add responses for admin actions (pop up etc)
+
 * create Kontrollcenter with Buttons
     * [x] enable/disable cron tasks
-* tests
-	* [ ] visual inspection of pages
-	* [ ] SMS content
-	* tables
-	    * [ ] events end up in kalender.ics
-		* adding rows
-			* [ ] required fields are set
-			* [ ] entities show up in database
-		* [ ] reordering of schools results in new VisitOrder
-		* [ ] reordering of topics results in new VisitOrder
-	* admin-tools
-		* [ ] add responses for admin actions (pop up etc)
-		* [ ] Add missing groups
-		* [ ] Fill empty group names
-		* [ ] assign visits to colleagues
-		* [ ] Bus/Food Booking page
-		* [ ] Add visit dates page
-		* [ ] update group counts for schools
-		* [ ] Bus booking page
-		* [ ] Food ordering page
-	* cron-tasks
-		* [x] run at right time
-		* tasks
-			* [x] calendar_rebuild
-			* [x] backup
-			* [x] visit_confirmation_message
-			* [ ] admin_summary
-				* [ ] wrong visit order
-				* [ ] ...
-			* [x] changed_group_leader_mail
-			* [x] new_user_mail
-			* [x] update_profile_reminder
-			* [ ] table_cleanup
 * [x] create index page
 * [x] create page to set bus&food-confirmation status
 * [x] create colleague assignment page
@@ -72,8 +37,51 @@
 * admin-mail:
     * [x] check for redudandant mail adresses
     * [x] check for visits-in-wrong-order
+
+## Tests
+
+* [ ] visual inspection of pages
+* [ ] SMS content
+* tables
+	* [ ] events end up in kalender.ics
+	* adding rows
+		* [ ] required fields are set
+		* [ ] entities show up in database
+	* [ ] reordering of schools results in new VisitOrder
+	* [ ] reordering of topics results in new VisitOrder
+* admin-tools
 	
-* IDEAS
+	* [ ] Add missing groups
+	* [ ] Fill empty group names
+	* [ ] assign visits to colleagues
+	* [ ] Bus/Food Booking page
+	* [ ] Add visit dates page
+	* [ ] update group counts for schools
+	* [ ] Bus booking page
+	* [ ] Food ordering page
+* cron-tasks
+	* [x] run at right time
+	* tasks
+		* [x] calendar_rebuild
+		* [x] backup
+		* [x] visit_confirmation_message
+		* [ ] admin_summary
+			* [ ] wrong visit order
+			* [ ] ...
+		* [x] changed_group_leader_mail
+		* [x] new_user_mail
+		* [x] update_profile_reminder
+		* [ ] table_cleanup
+
+## Documentation
+* classes
+    * [ ] Naturskolan
+    * [ ] Authorization
+    * [ ] Update
+* concepts
+	* [ ] How the cron tasks work
+	
+## IDEAS
     * [ ] implement calendar-view for visits on group page using jquery ui datepicker option "beforeShowDay"
 	* [ ] add a "notes-link" to the calendar
 	* [ ] build a page to combine bustrips with schools, using a multi-select
@@ -81,7 +89,7 @@
 	* [ ] view logg on admin-page
 	* [ ] Buttons "Copy to clipboard" and "Send mail" on bus_order and food_order pages.
 	
-# Issues
+## Issues
 * [x] Istället för "några minuter sen" visas “Uppgifterna sparades senast Invalid date.” på skolsidan och liknande.
 * [x] validate dates from add_dates_to_topic
 * [x] Debug "forgot password"

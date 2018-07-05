@@ -1,8 +1,9 @@
 # Summary
 
 ## Reference
-    * [Debugging assistance](debugging_assistance.md)
     * [Roadmap](roadmap.md)
+	* [Debugging assistance](debugging_assistance.md)
+
 
 ## How To
     * [Export from Mailchimp to database](export_from_mailchimp_to_db.md)
