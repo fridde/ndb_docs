@@ -1,4 +1,5 @@
-# Left to do
+
+## Left to do
 * [x] implement welcome_new_user notification
 * [x] enable group name change
 * [x] implement batch-adding visits
@@ -84,7 +85,7 @@
 ## IDEAS
     * [ ] implement calendar-view for visits on group page using jquery ui datepicker option "beforeShowDay"
 	* [ ] add a "notes-link" to the calendar
-	* [ ] build a page to combine bustrips with schools, using a multi-select
+	* [x] build a page to combine bustrips with schools, using a multi-select
 	* [ ] rewrite table-settings as an external yaml-file
 	* [ ] view logg on admin-page
 	* [ ] Buttons "Copy to clipboard" and "Send mail" on bus_order and food_order pages.
