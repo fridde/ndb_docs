@@ -8,7 +8,6 @@
 * [x] fix datepicker on table visits
 * [x] protect update from request forgery by introducing session variables
 * [ ] add responses for admin actions (pop up etc)
-
 * create Kontrollcenter with Buttons
     * [x] enable/disable cron tasks
 * [x] create index page
@@ -16,9 +15,8 @@
 * [x] create colleague assignment page
 * [x] add custom calendar events form
 * [ ] add 404 and 500 with smart error handling
-
 * layout pages
-	* [ ] width in tables does not exceed page width
+	* [x] width in tables does not exceed page width
 	* positioning of elements on admin pages
 		* [ ] set_visits
 * [ ] insert loggers to crucial functions
@@ -33,14 +31,14 @@
     * [x] confirm_visit
     * [x] changed_groups
     * [x] new_user_welcome
-* [ ] use Slack to notify admin about errors and interesting events
-
+* [ ] Go through all TODO-tasks and complete them
+* [ ] use Slack to notify admin about errors and important events
 * admin-mail:
     * [x] check for redudandant mail adresses
     * [x] check for visits-in-wrong-order
+	* [ ] check for files in temp-folder
 
 ## Tests
-
 * [ ] visual inspection of pages
 * [ ] SMS content
 * tables
@@ -100,4 +98,4 @@
 * [x] Debug "forgot password"
 * [x] Debug cut-off menu
 
-* [ ] ..
+* [ ] .
