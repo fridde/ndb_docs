@@ -78,8 +78,13 @@
     * [ ] Naturskolan
     * [ ] Authorization
     * [ ] Update
+	* [ ] Change
 * concepts
 	* [ ] How the cron tasks work
+	* [ ] How the Auth-process works
+	* [ ] How the calendar is generated
+* routines
+    * [ ] Re-encoding the password-word-files
 	
 ## IDEAS
     * [ ] implement calendar-view for visits on group page using jquery ui datepicker option "beforeShowDay"
