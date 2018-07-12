@@ -44,14 +44,13 @@
 * [ ] visual inspection of pages
 * [ ] SMS content
 * tables
-	* [ ] events end up in kalender.ics
+	* [x] events end up in kalender.ics
 	* adding rows
 		* [ ] required fields are set
 		* [ ] entities show up in database
 	* [ ] reordering of schools results in new VisitOrder
 	* [ ] reordering of topics results in new VisitOrder
-* admin-tools
-	
+* admin-tools	
 	* [ ] Add missing groups
 	* [ ] Fill empty group names
 	* [ ] assign visits to colleagues
@@ -86,7 +85,7 @@
     * [ ] implement calendar-view for visits on group page using jquery ui datepicker option "beforeShowDay"
 	* [ ] add a "notes-link" to the calendar
 	* [x] build a page to combine bustrips with schools, using a multi-select
-	* [ ] rewrite table-settings as an external yaml-file
+	* [x] rewrite table-settings as an external yaml-file
 	* [ ] view logg on admin-page
 	* [ ] Buttons "Copy to clipboard" and "Send mail" on bus_order and food_order pages.
 	
