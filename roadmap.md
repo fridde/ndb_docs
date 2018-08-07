@@ -44,17 +44,17 @@
 * tables
 	* [x] events end up in kalender.ics
 	* adding rows
-		* [ ] required fields are set
-		* [ ] entities show up in database
-	* [ ] reordering of schools results in new VisitOrder
-	* [ ] reordering of topics results in new VisitOrder
+		* [x] required fields are set
+		* [x] entities show up in database
+	* [x] reordering of schools results in new VisitOrder
 * admin-tools	
+	* [ ] update group counts for schools
 	* [ ] Add missing groups
 	* [ ] Fill empty group names
 	* [ ] assign visits to colleagues
 	* [ ] Bus/Food Booking page
 	* [ ] Add visit dates page
-	* [ ] update group counts for schools
+	* [ ] reorder visit order for topics
 	* [ ] Bus booking page
 	* [ ] Food ordering page
 * cron-tasks
