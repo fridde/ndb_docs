@@ -48,9 +48,8 @@
 		* [x] entities show up in database
 	* [x] reordering of schools results in new VisitOrder
 * admin-tools	
-	* [ ] update group counts for schools
-	* [ ] Add missing groups
-	* [ ] Fill empty group names
+	* [x] update group counts for schools
+	* [x] Add missing groups	
 	* [ ] assign visits to colleagues
 	* [ ] Bus/Food Booking page
 	* [ ] Add visit dates page
@@ -84,8 +83,9 @@
 * routines
     * [ ] Re-encoding the password-word-files
 	
-## IDEAS
+## Ideas
     * [ ] implement calendar-view for visits on group page using jquery ui datepicker option "beforeShowDay"
+	* [ ] refactor js files into webpack-system
 	* [ ] add a "notes-link" to the calendar
 	* [x] build a page to combine bustrips with schools, using a multi-select
 	* [x] rewrite table-settings as an external yaml-file
