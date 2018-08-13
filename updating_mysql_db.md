@@ -5,6 +5,7 @@ Always assume that the *data* of the remote database is the most current, but th
 Thus, to make a structural update to the remote database, export only the structure of the whole database. Use the settings
 
 - dump table "structure only"
+- remove "Show comments"
 - include "DROP TABLE"
 - remove "IF NOT EXISTS"
 
