@@ -1,6 +1,6 @@
 # How to export data from mailchimp to database
 
-1. export the whole mailchimp list. check that no segment is active
+1. export the whole mailchimp list (not just a segment).
 1. Open excel and go to ```Data -> From Text/CSV```
 1. choose ```subscribed_members_export``` from the export (after unzipping)
 1. rename sheet to current date
