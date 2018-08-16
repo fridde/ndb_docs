@@ -7,7 +7,7 @@
 * [x] create navigation menus
 * [x] fix datepicker on table visits
 * [x] protect update from request forgery by introducing session variables
-* [ ] add responses for admin actions (pop up etc)
+* [x] add responses for admin actions (pop up etc)
 * create Kontrollcenter with Buttons
     * [x] enable/disable cron tasks
 * [x] create index page
@@ -36,7 +36,8 @@
 * admin-mail:
     * [x] check for redudandant mail adresses
     * [x] check for visits-in-wrong-order
-	* [ ] check for files in temp-folder
+	* [x] check for files in temp-folder
+	* [ ] notify of duplicate topics for single group (i.e. one group has Topic A twice)
 
 ## Tests
 * [ ] visual inspection of pages
