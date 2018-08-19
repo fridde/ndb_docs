@@ -27,5 +27,5 @@
 1. Copy the comma-seperated headers to somewhere safe. 
 1. Export the export-sheets as csv-documents.
 1. Open the 3 files in Notepad++ and convert the encoding to UTF8. Save!
-1. import it into the sql-database and use the comma-seperated headers to specify the order of the columns. Set skipped rows to 1 and column separator to ";". Disable foreign key checks.
+1. import it into the sql-database and use the comma-seperated headers to specify the order of the columns. Set skipped rows to 1 and column separator to ";". Disable foreign key checks using ```SET FOREIGN_KEY_CHECKS=0;```
 1. add those who work at naturskolan to the database
