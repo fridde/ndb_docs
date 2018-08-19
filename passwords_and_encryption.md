@@ -1,3 +1,7 @@
+# Adding more words to the word files
+
+Follow the steps documented in the project ```fridde/what3words_passwords``` and copy the created files to the ```config/words/``` directory. Make sure that they follow the naming pattern *words_YYYYMMDDTHHMMSS.txt* (observe the literal "T").
+
 # Re-encrypting the word files
 
 If you feel unsure about the security of the word-files or it has been more than a year since last re-encryption, run 

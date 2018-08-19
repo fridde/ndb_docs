@@ -14,6 +14,8 @@
 * [x] create page to set bus&food-confirmation status
 * [x] create colleague assignment page
 * [x] add custom calendar events form
+* [ ] build wrong-password modal
+* [ ] make Fritids topic order irrelevant
 * [ ] add 404 and 500 with smart error handling
 * layout pages
 	* [x] width in tables does not exceed page width
@@ -38,6 +40,7 @@
     * [x] check for visits-in-wrong-order
 	* [x] check for files in temp-folder
 	* [ ] notify of duplicate topics for single group (i.e. one group has Topic A twice)
+	* [ ] get non-booked food or bus within X days
 
 ## Tests
 * [ ] visual inspection of pages
@@ -51,8 +54,7 @@
 * admin-tools	
 	* [x] update group counts for schools
 	* [x] Add missing groups	
-	* [ ] assign visits to colleagues
-	* [ ] Bus/Food Booking page
+	* [x] assign visits to colleagues	
 	* [ ] Add visit dates page
 	* [ ] reorder visit order for topics
 	* [ ] Bus booking page
