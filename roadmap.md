@@ -97,8 +97,8 @@
 	
 ## Issues
 * [x] Istället för "några minuter sen" visas “Uppgifterna sparades senast Invalid date.” på skolsidan och liknande.
-* [x] validate dates from add_dates_to_topic
-* [x] Debug "forgot password"
 * [x] Debug cut-off menu
+* [ ] forgotten password mail has no FirstName and no working link to user area
+* [ ] direct-login-code in welcome mail does not work
 
 * [ ] .
