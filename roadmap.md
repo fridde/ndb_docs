@@ -8,20 +8,26 @@
 * [x] fix datepicker on table visits
 * [x] protect update from request forgery by introducing session variables
 * [x] add responses for admin actions (pop up etc)
+* [ ] remove "Specialkost" for fritids and åk 9
 * create Kontrollcenter with Buttons
     * [x] enable/disable cron tasks
 * [x] create index page
 * [x] create page to set bus&food-confirmation status
 * [x] create colleague assignment page
 * [x] add custom calendar events form
-* [ ] build wrong-password modal
-* [ ] make Fritids topic order irrelevant
+* [x] build wrong-password modal
+* [x] make Fritids topic order irrelevant
+* [x] update user selector options after adding users
+* [ ]
+* [ ] give feedback after updating group counts in admin tools
+* [ ] add tools to remove rows 
 * [ ] add 404 and 500 with smart error handling
+* [ ] add button to send manager mobilization mail
+* [x] insert loggers to crucial functions
 * layout pages
 	* [x] width in tables does not exceed page width
 	* positioning of elements on admin pages
 		* [ ] set_visits
-* [ ] insert loggers to crucial functions
 * [x] button to insert group names in empty groups
 * [x] build "forgotten password modal"
 * [x] complete mail-templates
@@ -33,8 +39,9 @@
     * [x] confirm_visit
     * [x] changed_groups
     * [x] new_user_welcome
+	* [ ] manager_mobilization
 * [ ] Go through all TODO-tasks and complete them
-* [ ] use Slack to notify admin about errors and important events
+* [x] use Slack to notify admin about errors and important events
 * admin-mail:
     * [x] check for redudandant mail adresses
     * [x] check for visits-in-wrong-order
@@ -84,7 +91,7 @@
 	* [ ] How the Auth-process works
 	* [ ] How the calendar is generated
 * routines
-    * [ ] Re-encoding the password-word-files
+    * [x] Re-encoding the password-word-files
 	
 ## Ideas
     * [ ] implement calendar-view for visits on group page using jquery ui datepicker option "beforeShowDay"
@@ -98,7 +105,10 @@
 ## Issues
 * [x] Istället för "några minuter sen" visas “Uppgifterna sparades senast Invalid date.” på skolsidan och liknande.
 * [x] Debug cut-off menu
-* [ ] forgotten password mail has no FirstName and no working link to user area
-* [ ] direct-login-code in welcome mail does not work
+* [x] forgotten password mail has no FirstName and no working link to user area
+* [x] direct-login-code in welcome mail does not work
+* [x] dates in visits are saved with times instead of just dates
+* [ ] confirm visit page has wrong return layout (json vs html)
+* [ ] groups with no user show a false default value on group page. should be "Ingen" but is usually first person
 
 * [ ] .
