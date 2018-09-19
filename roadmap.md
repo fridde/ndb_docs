@@ -18,7 +18,6 @@
 * [x] build wrong-password modal
 * [x] make Fritids topic order irrelevant
 * [x] update user selector options after adding users
-* [ ]
 * [ ] give feedback after updating group counts in admin tools
 * [ ] add tools to remove rows 
 * [ ] add 404 and 500 with smart error handling
@@ -39,15 +38,14 @@
     * [x] confirm_visit
     * [x] changed_groups
     * [x] new_user_welcome
-	* [ ] manager_mobilization
+	* [x] manager_mobilization
 * [ ] Go through all TODO-tasks and complete them
 * [x] use Slack to notify admin about errors and important events
 * admin-mail:
     * [x] check for redudandant mail adresses
     * [x] check for visits-in-wrong-order
 	* [x] check for files in temp-folder
-	* [ ] notify of duplicate topics for single group (i.e. one group has Topic A twice)
-	* [ ] get non-booked food or bus within X days
+	* [x] get non-booked food or bus within X days
 
 ## Tests
 * [ ] visual inspection of pages
@@ -100,7 +98,10 @@
 	* [x] build a page to combine bustrips with schools, using a multi-select
 	* [x] rewrite table-settings as an external yaml-file
 	* [ ] view logg on admin-page
+	* [ ] implement check of mailadresses into admin-summary (filter_var)
 	* [ ] Buttons "Copy to clipboard" and "Send mail" on bus_order and food_order pages.
+	* [ ] Sort groups, schools and teachers by name
+	* [ ] move "add row" button UNDER the long tables in the admin-pages
 	
 ## Issues
 * [x] Istället för "några minuter sen" visas “Uppgifterna sparades senast Invalid date.” på skolsidan och liknande.
@@ -110,5 +111,6 @@
 * [x] dates in visits are saved with times instead of just dates
 * [ ] confirm visit page has wrong return layout (json vs html)
 * [ ] groups with no user show a false default value on group page. should be "Ingen" but is usually first person
+* [ ] adding new rows in "Visits" binds the wrong datepicker to the row
 
 * [ ] .
